@@ -1,0 +1,7 @@
+SELECT City, SUM(Sales) AS Total_Sales
+FROM sales_data
+GROUP BY City;
+
+SELECT Product, COUNT(*) AS Total_Orders
+FROM sales_data
+GROUP BY Product;
